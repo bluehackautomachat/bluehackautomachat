@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 5rem 0 0 0;
+    background-color: #4AD113;
+    color: #fff;
+}
+
+img, span {
+    display: block;
+}
+
+img {
+    width: 10rem;
+    height: 10rem;
+    margin: 0 auto;
+}
+
+span {
+    margin-top: 3.5rem;
+    text-align: center;
+    font-size: 3.5rem;
+    width: 100%;
+}
