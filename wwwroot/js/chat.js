@@ -35,7 +35,27 @@ function criarMensagem(item) {
     document.querySelector(".mensagens").appendChild(mensagem);
 }
 
-function textoAlterado() {
-    console.log(1);
-    criarMensagem(mensagens[0]);
-}
+document.getElementById('inputUsuario').addEventListener('change', function(ev) {
+    var client = new XMLHttpRequest();
+    client.open("GET", "http://9.232.16.79:8081/api", true);
+    client.setRequestHeader("Content-type", "application/json");
+    client.setRequestHeader("TextoUsuario", ev.target.value);
+    client.send();
+
+    client.onreadystatechange = function() {
+        if (client.readyState == XMLHttpRequest.DONE) {
+            var response = JSON.parse(client.responseText);
+            console.log(response);
+            console.log(response.message);
+            if(response.success != false) {
+                criarMensagem({
+                    enviador: 'bot',
+                    mensagem: response.message
+                });
+            } else {
+                alert('Deu ruim');
+            }
+        }
+    }
+
+});
