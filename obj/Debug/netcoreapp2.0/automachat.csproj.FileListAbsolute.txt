@@ -1,0 +1,10 @@
+C:\Users\jonat\Desktop\automachat\bin\Debug\netcoreapp2.0\automachat.deps.json
+C:\Users\jonat\Desktop\automachat\bin\Debug\netcoreapp2.0\automachat.runtimeconfig.json
+C:\Users\jonat\Desktop\automachat\bin\Debug\netcoreapp2.0\automachat.runtimeconfig.dev.json
+C:\Users\jonat\Desktop\automachat\bin\Debug\netcoreapp2.0\automachat.dll
+C:\Users\jonat\Desktop\automachat\bin\Debug\netcoreapp2.0\automachat.pdb
+C:\Users\jonat\Desktop\automachat\obj\Debug\netcoreapp2.0\automachat.csproj.CoreCompileInputs.cache
+C:\Users\jonat\Desktop\automachat\obj\Debug\netcoreapp2.0\automachat.AssemblyInfoInputs.cache
+C:\Users\jonat\Desktop\automachat\obj\Debug\netcoreapp2.0\automachat.AssemblyInfo.cs
+C:\Users\jonat\Desktop\automachat\obj\Debug\netcoreapp2.0\automachat.dll
+C:\Users\jonat\Desktop\automachat\obj\Debug\netcoreapp2.0\automachat.pdb
