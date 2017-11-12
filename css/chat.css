@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.barra-imagem {
+    height: 5rem;
+    padding: 0.5rem;
+    background-color: #4AD113;
+}
+
+    .barra-imagem img {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 100%;
+        border: 1px solid #000;
+        display: block;
+        margin: 1rem auto 0 auto;
+    }
+
+.mensagens {
+    padding: 0 0.5rem 2.6rem 0.5rem;
+}
+
+.mensagem {
+    margin: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.mensagem img {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 0.5rem;
+}
+
+.mensagem .balao {
+    padding: 0.5rem;
+    position: relative;
+	border-radius: 0.6rem;
+}
+
+.mensagem-bot {
+    padding: 0.5rem 0.5rem 0.5em 2rem;
+}
+
+    .mensagem-bot img {
+        padding-right: 0.75rem;
+    }
+
+    .mensagem-bot .balao {
+        background-color: #4AD113;
+        color: #fff;
+    }
+
+        .mensagem-bot .balao::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 80%;
+            width: 0;
+            height: 0;
+            border: 0.75em solid transparent;
+            border-right-color: #4AD113;
+            border-left: 0;
+            border-bottom: 0;
+            margin-top: -0.375em;
+            margin-left: -0.75em;
+        }
+
+.mensagem-usuario {
+    padding: 0.5rem 2rem 0.5rem 0.5rem;
+}
+
+    .mensagem-usuario img {
+        padding-left: 0.75rem;
+    }
+
+    .mensagem-usuario .balao {
+        background-color: #eee;
+        text-align: right;
+    }
+
+        .mensagem-usuario .balao::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 80%;
+            width: 0;
+            height: 0;
+            border: 0.75em solid transparent;
+            border-left-color: #eee;
+            border-right: 0;
+            border-bottom: 0;
+            margin-top: -0.375em;
+            margin-right: -0.7em;
+        }
+    
+.container-input {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+}
+
+input[type="text"] {
+    height: 2rem;
+    width: 80%;
+    border: 1px solid #000;
+    padding: 0.3rem;
+    font-size: 1rem;
+    border-radius: 10rem;
+}
