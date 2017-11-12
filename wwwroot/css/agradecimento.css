@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 3rem;
+    background-color: #043F6B;
+    color: #fff;
+    text-align: center;
+    font-family: roboto;
+}
+
+img, p {
+    display: block;
+}
+
+img {
+    width: 6rem;
+    height: 6rem;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 60%;
+}
