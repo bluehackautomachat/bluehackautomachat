@@ -18,46 +18,13 @@
           <img src="img/logo.png" alt="A Logo do HC - Box">
       </div>
 
-      <div class="mensagens">
-          <div class="mensagem mensagem-bot">
-              <img src="img/bot.jpeg" alt="A foto do bot">
-              <div class="balao">
-                  Por favor, Mostre para a câmera algum documento com foto
-              </div>
-          </div>
-    
-          <div class="mensagem mensagem-usuario">
-            <div class="balao">
-                <img src="img/documento.png" alt="o documento do usuário">
-            </div>
-            <img src="img/usuario.jpeg" alt="A foto do usuário">
-        </div>
-    
-        <div class="mensagem mensagem-bot">
-            <img src="img/bot.jpeg" alt="A foto do bot">
-            <div class="balao">
-                Ótimo, Thiago. Agora preciso confirmar sua carteira de convênio e seu código de cliente, mande uma foto por favor?
-            </div>
-        </div>
-      
-        <div class="mensagem mensagem-usuario">
-            <div class="balao">
-                <img src="img/documento2.png" alt="um outro documento do usuário">
-            </div>
-            <img src="img/usuario.jpeg" alt="A foto do usuário">
-        </div>
-    
-        <div class="mensagem mensagem-bot">
-            <img src="img/bot.jpeg" alt="A foto do bot">
-            <div class="balao">
-                Bom Thiago muito obrigado pela confirmação dirija-se ao 3º andar sala 15. Obrigado pela preferência
-            </div>
-        </div>
-    </div>
+      <div class="mensagens"></div>
 
     <div class="container-input">
-        <input type="text" placeholder="Digite aqui!" >
+        <input type="text" placeholder="Digite aqui!" onchange="textoAlterado()" >
     </div>
 
+    <script src="js/chat.js"></script>
+        
   </body>
 </html>
